@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mijn eerste JQuery toepassing</title>
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script
+        src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  
+    </head>
+        <body background="images/bg-les-25.jpg">
+                         <header>
+                <h1>Kunt u zich voorstellen, docent?</h1>
+                </header>
+                
+                
+                <div id="content">
+            <strong><h3>Wat is uw naam, docent?</h3></strong>
+            <form id="form">
+            <input type="text" id="idnaam">
+        <br><br>       
+        <input id="knop" name="knop" type="button" value="Mag ik mezelf ook voorstellen?">
+        
+        <script src="js/error.js"></script>
+        <script src="js/welkom.js"></script>
+       
+       <script>$(document).on("keypress", "form", function(event) {
+            if (event.keyCode === 13) {
+                window.alert("De enter toets is geblokkeerd voor gebruik. Gebruik inplaats daarvan de knop op het scherm.")
+               event.preventDefault();
+             
+               
+            }
+         });</script>
+         
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </form>
+        <noscript>Om deze pagina optimaal te gebruiken is het zeer belangrijk om Javascript te activeren.</noscript>
+
+            <footer>
+                <h4>Bedankt voor het nakijken van de huiswerkopdracht!</h4>
+                </footer>
+                </div>
+        </body>
+</html>

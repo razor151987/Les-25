@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(138, 252, 162) ;
+}
+
+header { 
+    background-color: #dea200;
+    color: #fff;
+    }
+
+#content { 
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:10%;
+    padding:25px;
+    background-color: #dea200;
+}
+
+h1 {
+    text-align: center;
+    padding:2%;
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 32px;
+}
+footer {
+    min-height:50px;
+    background-color: #767;
+    color: #fff;
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding-bottom:5px;
+
+    width:100%;
+}
